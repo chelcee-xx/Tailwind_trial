@@ -1,0 +1,14 @@
+{
+  "name": "tailwindtrial2",
+  "version": "1.0.0",
+  "description": "tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
